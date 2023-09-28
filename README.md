@@ -28,7 +28,7 @@ python manage.py migrate
 ```
 4. Run the server:
 ```
-python manage.py runserver
+daphne chatproject.asgi:application  
 ```
 
 ## Usage
